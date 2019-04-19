@@ -1,13 +1,17 @@
 
 body{
-		background-color: lightseagreen 
+		background-color: lightseagreen;
+		padding: 15px;
+		margin: 15px; 
 	}
 header {
-	padding: 17px;
+	padding: 15px;
+	margin: 15px;
+	background-color: gray;
 }
 #titulo{
 		font-family: cursive;
-		font-size:	60px;
+		font-size:	50px;
 		text-align: center;
 		color: white;
 		}
@@ -19,6 +23,7 @@ header {
 
 p{
 	font-family: verdana;
+	background: lightgray;
 			
 	}
 
