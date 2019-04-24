@@ -1,67 +1,108 @@
+/* ............ Todo esto es ESTRUCTURA ........*/
+.container{
+	display: flex;
+}
 
-body{
-	background-color: lightgrey;
-	padding: 15px;
-	margin: 15px; 
-	}
-header{
-	background-color: gray;
-	position: absolute;
-    width: 100%;
-    height:20%;
-    top: 0;
-    right: 0;
-    bottom: auto;
-    left: 0;
-    text-align: center;
-	}
-#titulo{
-	font-family: arial;
-	font-size:	40px; 
+/* ............ Todo esto es GENERAL ........*/
+ul {
+	list-style-type: none;
+}
+#profile-pic img{
+	margin-top: 15%;
+	border-radius: 50%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* ............ Todo esto es ASIDE ........*/
+aside {
+	background-color: #025373;
+	width: 35%;
+	margin-right: 1%;
+}
+aside * {
+	color:white;
+}
+aside h2{
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-left: 3%; 
+}
+aside section h2:first-child{
+	border-bottom: 2px solid white;
+}
+aside p{
 	text-align: center;
 	color: lightgray;
-	}
-.sub{
-	color: gray;
-	font-family: verdana;
-	text-align: center;
-	}
-p{
-	font-family: verdana;
-	background: lightgray;
-	text-align: center;
-			
+}
 
-	}
+aside dl {
+	margin-left: 3%;
 
-p1{
-	font-family: arial;
-	background: lightgray;
+}
+aside dl dt{
+	color: #011826;
+	font-weight: bold;
+	font-size: 20px ;
+}
+/* ............ Todo esto es MAIN  ............*/
+main section h2{
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.name {
+	background-color: #03738C;	
+	box-shadow: 3px 3px 10px 5px #025373 inset;
 	text-align: center;
-	font-size:20px		
-	}
+}
+.name h1{
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-size: 40px;
+	color: white;
+	margin-block-start: 0;
+    margin-block-end: 0;
+
+}
+.name h2{
+	color: white;
+	border-top: 2px solid white;
+	text-transform: none;
+	letter-spacing: none;
+	margin-block-start: 0;
+    margin-block-end: 0;
+
+}
+.education {
+	background-color: #93AEBF;
+}
+.education h2{
+	background-color: white;
+	color:#011826;
+}
+article h3,
+article h4{
+	font-weight: bold;
+}
+article ul {
+	list-style-type: square;
+}
+.experience {
+	background-color: #93AEBF;
+}
+.experience h2{
+	background-color: white;
+	color:#011826;
+}
+
 footer{
 	text-align: right;
-	color: white;
+	color: green;
 	font-family: arial;
 
-}
-div.allado{
-		position: absolute;
-        width: 10em;
-        height: auto;
-        top:25%
-        right: auto;
-        bottom: 100px;
-        left:20px;
-}
-div.contenido{	
-	position: absolute;	
-        width: auto;
-        height: auto;
-        top: 25%;
-        right:10;
-        bottom: 100px;
-        left:300px;
 }
 
