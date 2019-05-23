@@ -21,7 +21,7 @@ aside section h2:first-child{
 }
 aside p{
 	text-align: center;
-	color: lightgray;
+	color: #93AEBF;
 }
 
 aside dl {
@@ -38,7 +38,7 @@ aside dl dt{
 
 main section h2{
 	text-transform: uppercase;
-	letter-spacing: 5px;
+	letter-spacing: 3px;
 }
 
 .name {
@@ -86,6 +86,9 @@ article ul {
 	background-color: white;
 	color:#011826;
 }
+h3{
+	color: #025373;
+}
 
 /* ............ Todo esto es ESTRUCTURA ........*/
 
@@ -95,7 +98,7 @@ article ul {
 
 /* ............ Todo esto es GENERAL ........*/
 *{
-	font-family: sans-serif;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 ul {
 	list-style-type: none;
